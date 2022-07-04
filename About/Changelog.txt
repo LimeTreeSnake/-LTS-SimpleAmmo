@@ -1,6 +1,7 @@
-2022-05-
+2022-06-23
     - Added EmpLauncher, SmokeLauncher,IncendiaryLauncher,ThumpCannon and InfernoCannon to explosive ammo
     - Made Kurin surigum use primitive ammo
+    - Patched vanilla scenarios to include some starting ammo.
 
 2022-05-16
     - Primitive&Medieval ammo can be crafted at Workbenches from Medieval Overhaul

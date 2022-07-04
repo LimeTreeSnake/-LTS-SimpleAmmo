@@ -1,33 +1,64 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>
+    <Patch>
 
-	<!-- These resources get assigned to traders -->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators</xpath>
-				<value>
-				    <li Class="StockGenerator_SingleDef">
-						<thingDef>AmmoPrimitive</thingDef>
-						<countRange>150~300</countRange>
-					</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
-				<value>
-				    <li Class="StockGenerator_SingleDef">
-						<thingDef>AmmoIndustrial</thingDef>
-						<countRange>200~400</countRange>
-					</li>
-				    <li Class="StockGenerator_SingleDef">
-						<thingDef>AmmoSpacer</thingDef>
-						<countRange>100~150</countRange>
-					</li>
-				</value>
-			</li>
-		</operations>
-	</Operation>
+        <!-- These resources get assigned to traders -->
+        <Operation Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators</xpath>
+                    <value>
+                        <li Class="StockGenerator_SingleDef">
+                            <thingDef>AmmoPrimitive</thingDef>
+                            <countRange>150~300</countRange>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+                    <value>
+                        <li Class="StockGenerator_SingleDef">
+                            <thingDef>AmmoIndustrial</thingDef>
+                            <countRange>200~400</countRange>
+                        </li>
+                        <li Class="StockGenerator_SingleDef">
+                            <thingDef>AmmoSpacer</thingDef>
+                            <countRange>100~150</countRange>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ScenarioDef[defName = "Crashlanded"]/scenario/parts</xpath>
+                    <value>
+                        <li Class="ScenPart_StartingThing_Defined">
+                            <def>StartingThing_Defined</def>
+                            <thingDef>AmmoIndustrial</thingDef>
+                            <count>225</count>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ScenarioDef[defName = "LostTribe"]/scenario/parts</xpath>
+                    <value>
+                        <li Class="ScenPart_StartingThing_Defined">
+                            <def>StartingThing_Defined</def>
+                            <thingDef>AmmoPrimitive</thingDef>
+                            <count>150</count>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ScenarioDef[defName = "TheRichExplorer"]/scenario/parts</xpath>
+                    <value>
+                        <li Class="ScenPart_StartingThing_Defined">
+                            <def>StartingThing_Defined</def>
+                            <thingDef>AmmoSpacer</thingDef>
+                            <count>225</count>
+                        </li>
+                    </value>
+                </li>
+            </operations>
 
-</Patch>
+        </Operation>
+
+    </Patch>

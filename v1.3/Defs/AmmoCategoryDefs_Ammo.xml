@@ -30,6 +30,7 @@
                 <li MayRequire="Aoba.Musket">BA_Gun_Jezail_P</li>
             </includeWeaponDefs>
             <excludeWeaponDefs>
+                <li MayRequire="VAMV.MaruRaceMod">BA_Gun_Jezail_P</li>
             </excludeWeaponDefs>
         </Ammunition.Defs.AmmoCategoryDef>
         <Ammunition.Defs.AmmoCategoryDef>
