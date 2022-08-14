@@ -1,6 +1,7 @@
 2022-08
     - changed Rimsenal Smart weapons from using Industrial ammo -> Spacer ammo
-
+    - patched up and coming mod Tenants to not use regular medieval ammo.
+    
 2022-06-23
     - Added EmpLauncher, SmokeLauncher,IncendiaryLauncher,ThumpCannon and InfernoCannon to explosive ammo
     - Made Kurin surigum use primitive ammo
