@@ -1,6 +1,13 @@
-2022-08
+2022-09-02
+    - Updated to use new DefModExtension for Ammunition.
+
+2022-09-02
+    - Removed the stack limit from Explosive ammo, this to stay in line with other ammo types.
+    - Fixed LoadFolders again whops.	
+
+2022-09-01
     - changed Rimsenal Smart weapons from using Industrial ammo -> Spacer ammo
-    - patched up and coming mod Tenants to not use regular medieval ammo.
+    - patched Tenants to not use regular medieval ammo.
     
 2022-06-23
     - Added EmpLauncher, SmokeLauncher,IncendiaryLauncher,ThumpCannon and InfernoCannon to explosive ammo

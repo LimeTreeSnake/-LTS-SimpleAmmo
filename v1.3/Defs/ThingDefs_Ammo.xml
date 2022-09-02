@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!--Primitive-->
-    <ThingDef Name="AmmoPrimitive" ParentName="AmmunitionBase">
+    <ThingDef ParentName="AmmunitionBase">
         <defName>AmmoPrimitive</defName>
         <label>primitive ammo</label>
         <description>Crudely made ammunition from a bygone era. Still has uses for those skilled enough.</description>
@@ -18,12 +18,12 @@
         <tradeTags>
             <li>AmmoPrimitive</li>
         </tradeTags>
-        <comps>
-            <li Class="Ammunition.Components.CompProps_Ammunition"></li>
-        </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
     </ThingDef>
     <!--Medieval-->
-    <ThingDef Name="AmmoMedieval" ParentName="AmmunitionBase">
+    <ThingDef ParentName="AmmunitionBase">
         <defName>AmmoMedieval</defName>
         <label>medieval ammo</label>
         <description>Early firearms and cannons use black powder to propel projectiles.</description>
@@ -51,11 +51,13 @@
                     <max>60</max>
                 </wickTicks>
             </li>
-            <li Class="Ammunition.Components.CompProps_Ammunition"></li>
         </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
     </ThingDef>
     <!--Industrial-->
-    <ThingDef Name="AmmoIndustrial" ParentName="AmmunitionBase">
+    <ThingDef ParentName="AmmunitionBase">
         <defName>AmmoIndustrial</defName>
         <label>industrial ammo</label>
         <description>Ammunition that uses an explosive primer that will fire projectiles at incredible speeds.</description>
@@ -83,11 +85,13 @@
                     <max>60</max>
                 </wickTicks>
             </li>
-            <li Class="Ammunition.Components.CompProps_Ammunition"></li>
         </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
     </ThingDef>
     <!--Spacer-->
-    <ThingDef Name="AmmoSpacer" ParentName="AmmunitionBase">
+    <ThingDef ParentName="AmmunitionBase">
         <defName>AmmoSpacer</defName>
         <label>spacer ammo</label>
         <description>A weaponized charge that holds enough power to cause some serious damage.</description>
@@ -115,14 +119,15 @@
                     <max>60</max>
                 </wickTicks>
             </li>
-            <li Class="Ammunition.Components.CompProps_Ammunition"></li>
         </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
     </ThingDef>
     <!--Explosive-->
-    <ThingDef Name="AmmoExplosive" ParentName="AmmunitionBase">
+    <ThingDef ParentName="AmmunitionBase">
         <defName>AmmoExplosive</defName>
         <label>explosive ammo</label>
-        <stackLimit>25</stackLimit>
         <description>Careful, these things go boom.</description>
         <graphicData>
             <texPath>Ammo/AmmoExplosive</texPath>
@@ -149,11 +154,13 @@
                     <max>60</max>
                 </wickTicks>
             </li>
-            <li Class="Ammunition.Components.CompProps_Ammunition"></li>
         </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
     </ThingDef>
     <!--Archotech-->
-    <ThingDef Name="AmmoArchotech" ParentName="AmmunitionBase">
+    <ThingDef ParentName="AmmunitionBase">
         <defName>AmmoArchotech</defName>
         <label>archotech ammo</label>
         <stackLimit>25</stackLimit>
@@ -183,7 +190,9 @@
                     <max>60</max>
                 </wickTicks>
             </li>
-            <li Class="Ammunition.Components.CompProps_Ammunition"></li>
         </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
     </ThingDef>
 </Defs>
