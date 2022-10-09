@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!--Primitive-->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>LTS_Primitive</defName>
+        <label>Primitive</label>
+        <ammoType>Primitive</ammoType>
+        <ammoDefs>
+            <li>AmmoPrimitive</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+            <li>Gun_ThrowingAxes</li>
+            <li>Bow_Compound</li>
+            <li>VWE_Bow_Compound</li>
+            <li MayRequire="Seioch.Kurin.HAR">Kurin_Gun_Surigum</li>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+            <li MayRequire="Aoba.Musket">BA_Gun_Jezail_R</li>
+            <li MayRequire="Aoba.Musket">BA_Gun_Jezail_P</li>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+    <!--Medieval-->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>LTS_Medieval</defName>
+        <label>Medieval</label>
+        <ammoType>Medieval</ammoType>
+        <ammoDefs>
+            <li>AmmoMedieval</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+            <li MayRequire="Aoba.Musket">BA_Gun_Jezail_R</li>
+            <li MayRequire="Aoba.Musket">BA_Gun_Jezail_P</li>
+        </includeWeaponDefs>
+        <excludeWeaponDefs>
+            <li MayRequire="VAMV.MaruRaceMod">BA_Gun_Jezail_P</li>
+            <li MayRequire="LimeTreeSnake.Tenants">LTS_RevolverMusket</li>
+            <li MayRequire="LimeTreeSnake.Tenants">LTS_QuadMusket</li>
+            <li MayRequire="LimeTreeSnake.Tenants">LTS_MusketRifle</li>
+            <li MayRequire="LimeTreeSnake.Tenants">LTS_PressureGun</li>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+    <!--Industrial-->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>LTS_Industrial</defName>
+        <ammoType>Industrial</ammoType>
+        <label>Industrial</label>
+        <ammoDefs>
+            <li>AmmoIndustrial</li>
+        </ammoDefs>
+        <includeWeaponDefs></includeWeaponDefs>
+        <excludeWeaponDefs>
+            <li>Gun_TripleRocket</li>
+            <li>Gun_DoomsdayRocket</li>
+            <li>Gun_EmpLauncher</li>
+            <li>Gun_SmokeLauncher</li>
+            <li>Gun_IncendiaryLauncher</li>
+            <li>Gun_ThumpCannon</li>
+            <li>Gun_InfernoCannon</li>
+            <li>Weapon_GrenadeFrag</li>
+            <li>Weapon_GrenadeMolotov</li>
+            <li>Weapon_GrenadeEMP</li>
+            <li MayRequire="rimsenal.EVP">Gun_SMG</li>
+            <li MayRequire="rimsenal.EVP">Gun_SmartPistol</li>
+            <li MayRequire="rimsenal.EVP">Gun_SmartRifle</li>
+            <li MayRequire="rimsenal.EVP">SmartMG</li>
+            <li MayRequire="rimsenal.EVP">Gun_SmartSniperRifle</li>
+            <li MayRequire="LimeTreeSnake.Military">LTS_Handgranat</li>
+            <li MayRequire="LimeTreeSnake.Military">LTS_AT</li>
+            <li MayRequire="LimeTreeSnake.Military">LTS_grg</li>
+            <li>Gun_ThrowingAxes</li>
+            <li>Bow_Compound</li>
+            <li>VWE_Bow_Compound</li>
+            <li MayRequire="Seioch.Kurin.HAR">Kurin_Gun_Surigum</li>
+        </excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+    <!--Explosive-->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>LTS_Explosive</defName>
+        <label>Explosive</label>
+        <ammoType>Explosive</ammoType>
+        <ammoDefs>
+            <li>AmmoExplosive</li>
+        </ammoDefs>
+        <includeWeaponDefs>
+            <li>Gun_TripleRocket</li>
+            <li>Gun_DoomsdayRocket</li>
+            <li>Gun_EmpLauncher</li>
+            <li>Gun_SmokeLauncher</li>
+            <li>Gun_IncendiaryLauncher</li>
+            <li>Gun_ThumpCannon</li>
+            <li>Gun_InfernoCannon</li>
+            <li>Weapon_GrenadeFrag</li>
+            <li>Weapon_GrenadeMolotov</li>
+            <li>Weapon_GrenadeEMP</li>
+            <li MayRequire="rimsenal.EVP">Gun_SMG</li>
+            <li MayRequire="rimsenal.EVP">Gun_SmartPistol</li>
+            <li MayRequire="rimsenal.EVP">Gun_SmartRifle</li>
+            <li MayRequire="rimsenal.EVP">SmartMG</li>
+            <li MayRequire="rimsenal.EVP">Gun_SmartSniperRifle</li>
+            <li MayRequire="LimeTreeSnake.Military">LTS_Handgranat</li>
+            <li MayRequire="LimeTreeSnake.Military">LTS_AT</li>
+            <li MayRequire="LimeTreeSnake.Military">LTS_grg</li>
+        </includeWeaponDefs>
+        <excludeWeaponDefs></excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+    <!--Spacer-->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>LTS_Spacer</defName>
+        <label>Spacer</label>
+        <ammoType>Spacer</ammoType>
+        <ammoDefs>
+            <li>AmmoSpacer</li>
+        </ammoDefs>
+        <includeWeaponDefs></includeWeaponDefs>
+        <excludeWeaponDefs></excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+    <!--Archotech-->
+    <Ammunition.Defs.AmmoCategoryDef>
+        <defName>LTS_Archotech</defName>
+        <label>Archotech</label>
+        <ammoType>Archotech</ammoType>
+        <ammoDefs>
+            <li>AmmoArchotech</li>
+        </ammoDefs>
+        <includeWeaponDefs></includeWeaponDefs>
+        <excludeWeaponDefs></excludeWeaponDefs>
+    </Ammunition.Defs.AmmoCategoryDef>
+</Defs>

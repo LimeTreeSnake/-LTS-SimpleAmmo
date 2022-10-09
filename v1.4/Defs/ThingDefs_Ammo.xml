@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!--Primitive-->
+    <ThingDef ParentName="AmmunitionBase">
+        <defName>AmmoPrimitive</defName>
+        <label>primitive ammo</label>
+        <description>Crudely made ammunition from a bygone era. Still has uses for those skilled enough.</description>
+        <graphicData>
+            <texPath>Ammo/AmmoPrimitive</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Bow_Recurve</soundInteract>
+        <techLevel>Neolithic</techLevel>
+        <statBases>
+            <MarketValue>0.5</MarketValue>
+            <Mass>0.1</Mass>
+        </statBases>
+        <tradeTags>
+            <li>AmmoPrimitive</li>
+        </tradeTags>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
+    </ThingDef>
+    <!--Medieval-->
+    <ThingDef ParentName="AmmunitionBase">
+        <defName>AmmoMedieval</defName>
+        <label>medieval ammo</label>
+        <description>Early firearms and cannons use black powder to propel projectiles.</description>
+        <graphicData>
+            <texPath>Ammo/AmmoMedieval</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <techLevel>Medieval</techLevel>
+        <statBases>
+            <MarketValue>0.5</MarketValue>
+            <Mass>0.025</Mass>
+        </statBases>
+        <tradeTags>
+            <li>AmmoMedieval</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2.0</explosiveRadius>
+                <explosiveDamageType>Burn</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
+    </ThingDef>
+    <!--Industrial-->
+    <ThingDef ParentName="AmmunitionBase">
+        <defName>AmmoIndustrial</defName>
+        <label>industrial ammo</label>
+        <description>Ammunition that uses an explosive primer that will fire projectiles at incredible speeds.</description>
+        <graphicData>
+            <texPath>Ammo/AmmoIndustrial</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <MarketValue>0.5</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+        <tradeTags>
+            <li>AmmoIndustrial</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2.0</explosiveRadius>
+                <explosiveDamageType>Burn</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
+    </ThingDef>
+    <!--Spacer-->
+    <ThingDef ParentName="AmmunitionBase">
+        <defName>AmmoSpacer</defName>
+        <label>spacer ammo</label>
+        <description>A weaponized charge that holds enough power to cause some serious damage.</description>
+        <graphicData>
+            <texPath>Ammo/AmmoSpacer</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <techLevel>Spacer</techLevel>
+        <statBases>
+            <MarketValue>0.5</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+        <tradeTags>
+            <li>AmmoSpacer</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2.0</explosiveRadius>
+                <explosiveDamageType>EMP</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.5</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
+    </ThingDef>
+    <!--Explosive-->
+    <ThingDef ParentName="AmmunitionBase">
+        <defName>AmmoExplosive</defName>
+        <label>explosive ammo</label>
+        <description>Careful, these things go boom.</description>
+        <graphicData>
+            <texPath>Ammo/AmmoExplosive</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <MarketValue>0.5</MarketValue>
+            <Mass>0.05</Mass>
+        </statBases>
+        <tradeTags>
+            <li>AmmoIndustrial</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveExpandPerStackcount>0.1</explosiveExpandPerStackcount>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
+    </ThingDef>
+    <!--Archotech-->
+    <ThingDef ParentName="AmmunitionBase">
+        <defName>AmmoArchotech</defName>
+        <label>archotech ammo</label>
+        <description>Don't even try to understand how it works, it just pews.</description>
+        <graphicData>
+            <texPath>Ammo/AmmoArchotech</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <techLevel>Archotech</techLevel>
+        <statBases>
+            <MarketValue>1</MarketValue>
+            <Mass>0.01</Mass>
+        </statBases>
+        <tradeTags>
+            <li>AmmoArchotech</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>1</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveExpandPerStackcount>0.1</explosiveExpandPerStackcount>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>
+                    <min>30</min>
+                    <max>60</max>
+                </wickTicks>
+            </li>
+        </comps>
+        <modExtensions>
+            <li MayRequire="LimeTreeSnake.Ammunition" Class="Ammunition.DefModExtensions.AmmunitionExtension" />
+        </modExtensions>
+    </ThingDef>
+</Defs>

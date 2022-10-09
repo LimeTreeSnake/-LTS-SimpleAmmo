@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- These resources get assigned to traders -->
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/TraderKindDef[defName = "Base_Empire_Standard"]/stockGenerators</xpath>
+                <value>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>AmmoSpacer</thingDef>
+                        <countRange>300~600</countRange>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/TraderKindDef[defName = "Empire_Caravan_TraderGeneral"]/stockGenerators</xpath>
+                <value>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>AmmoSpacer</thingDef>
+                        <countRange>300~600</countRange>
+                    </li>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/TraderKindDef[defName = "Orbital_Empire"]/stockGenerators</xpath>
+                <value>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>AmmoSpacer</thingDef>
+                        <countRange>400~800</countRange>
+                    </li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>
