@@ -1,4 +1,20 @@
 [LTS]Ammunition - Simple Ammo
+2022-12-05
+    - Industrial ammo steel 25 -> 30
+    - Changed spacerammo to require 20 plasteel instead of 25 steel.
+    - Added craftmanship lv 6 requirement to Spacer ammo, this alongside Intellectual lv 6.
+    - Spacer ammo no longer requires 25 chemfuel.
+    - Spacer ammo requires 5 uranium.
+    - Spacer ammo value 0.5 -> 1.5
+    - Explosive ammo requires Intellectual lv 4 alongside with Crafting lv 6
+    - Explosive ammo chemfuel 10 -> 20
+    - Archotech ammo no longer craftable.
+    - Archotech ammo value 1 -> 5
+    - Added archotech ammo sales to more high end exotic traders and royalty
+
+2022-11-25
+    - Added tox grenades and launcher to use explosive ammo as default.
+
 2022-10-09
     - Updated for 1.4, 1.3 stays as is and wont be updated.
     - Archotech stacklimit 25->150 (base value)

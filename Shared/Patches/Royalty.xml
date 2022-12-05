@@ -12,6 +12,10 @@
                         <thingDef>AmmoSpacer</thingDef>
                         <countRange>300~600</countRange>
                     </li>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>AmmoArchotech</thingDef>
+                        <countRange>50~100</countRange>
+                    </li>
                 </value>
             </li>
             <li Class="PatchOperationAdd">
@@ -21,6 +25,10 @@
                         <thingDef>AmmoSpacer</thingDef>
                         <countRange>300~600</countRange>
                     </li>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>AmmoArchotech</thingDef>
+                        <countRange>50~100</countRange>
+                    </li>
                 </value>
             </li>
             <li Class="PatchOperationAdd">
@@ -29,6 +37,10 @@
                     <li Class="StockGenerator_SingleDef">
                         <thingDef>AmmoSpacer</thingDef>
                         <countRange>400~800</countRange>
+                    </li>
+                    <li Class="StockGenerator_SingleDef">
+                        <thingDef>AmmoArchotech</thingDef>
+                        <countRange>75~150</countRange>
                     </li>
                 </value>
             </li>

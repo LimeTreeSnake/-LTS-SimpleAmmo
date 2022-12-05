@@ -59,6 +59,8 @@
             <li>Weapon_GrenadeFrag</li>
             <li>Weapon_GrenadeMolotov</li>
             <li>Weapon_GrenadeEMP</li>
+            <li>Weapon_GrenadeTox</li>
+            <li>Gun_ToxbombLauncher</li>
             <li MayRequire="rimsenal.EVP">Gun_SMG</li>
             <li MayRequire="rimsenal.EVP">Gun_SmartPistol</li>
             <li MayRequire="rimsenal.EVP">Gun_SmartRifle</li>
@@ -92,6 +94,8 @@
             <li>Weapon_GrenadeFrag</li>
             <li>Weapon_GrenadeMolotov</li>
             <li>Weapon_GrenadeEMP</li>
+            <li>Weapon_GrenadeTox</li>
+            <li>Gun_ToxbombLauncher</li>
             <li MayRequire="rimsenal.EVP">Gun_SMG</li>
             <li MayRequire="rimsenal.EVP">Gun_SmartPistol</li>
             <li MayRequire="rimsenal.EVP">Gun_SmartRifle</li>

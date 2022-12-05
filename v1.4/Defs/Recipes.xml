@@ -32,6 +32,8 @@
         <products>
             <AmmoPrimitive>75</AmmoPrimitive>
         </products>
+        <!-- 30 * 1.2 = 36-->
+        <!-- 75 * 0.5 = 37.5 -->
     </RecipeDef>
 
     <RecipeDef>
@@ -72,7 +74,7 @@
             <AmmoMedieval>75</AmmoMedieval>
         </products>
     </RecipeDef>
-
+    
     <RecipeDef>
         <defName>Make_AmmoIndustrial</defName>
         <label>make industrial ammo</label>
@@ -98,7 +100,7 @@
                         <li MayRequire="Argon.VMEu">VMEu_Lead</li>
                     </thingDefs>
                 </filter>
-                <count>25</count>
+                <count>30</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -110,6 +112,8 @@
         <products>
             <AmmoIndustrial>150</AmmoIndustrial>
         </products>
+        <!-- 30 * 1.9 = 59-->
+        <!-- 150 * 0.5 = 75 -->
     </RecipeDef>
 
     <RecipeDef>
@@ -127,13 +131,14 @@
         </recipeUsers>
         <allowMixingIngredients>false</allowMixingIngredients>
         <skillRequirements>
+            <Crafting>6</Crafting>
             <Intellectual>6</Intellectual>
         </skillRequirements>
         <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Steel</li>
+                        <li>Plasteel</li>
                         <li MayRequire="Argon.VMEu">VMEu_Tungsten</li>
                         <li MayRequire="Argon.VMEu">VMEu_Germanium</li>
                     </thingDefs>
@@ -143,10 +148,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Chemfuel</li>
+                        <li>Uranium</li>
                     </thingDefs>
                 </filter>
-                <count>25</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -160,6 +165,9 @@
         <products>
             <AmmoSpacer>150</AmmoSpacer>
         </products>
+        <!-- 20 * 9 = 180 -->
+        <!-- 5 * 6 = 30-->
+        <!-- 150 * 0.5 = 225 -->
     </RecipeDef>
 
     <RecipeDef>
@@ -178,6 +186,7 @@
         <allowMixingIngredients>false</allowMixingIngredients>
         <skillRequirements>
             <Crafting>6</Crafting>
+            <Intellectual>4</Intellectual>
         </skillRequirements>
         <ingredients>
             <li>
@@ -194,7 +203,7 @@
                         <li>Chemfuel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>
+                <count>20</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -206,9 +215,12 @@
         <products>
             <AmmoExplosive>150</AmmoExplosive>
         </products>
+        <!-- 20 * 1.9 = 38-->
+        <!-- 150 * 2.3 = 23 -->
+        <!-- 150 * 0.5 = 225 -->
     </RecipeDef>
 
-    <RecipeDef>
+    <!-- <RecipeDef>
         <defName>Make_AmmoArchotech</defName>
         <label>make archotech ammo</label>
         <description>Make archotech ammo by refining chemfuel, steel.</description>
@@ -252,5 +264,5 @@
         <products>
             <AmmoArchotech>150</AmmoArchotech>
         </products>
-    </RecipeDef>
+    </RecipeDef> -->
 </Defs>

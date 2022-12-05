@@ -102,7 +102,7 @@
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <techLevel>Spacer</techLevel>
         <statBases>
-            <MarketValue>0.5</MarketValue>
+            <MarketValue>1.5</MarketValue>
             <Mass>0.01</Mass>
         </statBases>
         <tradeTags>
@@ -171,7 +171,7 @@
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <techLevel>Archotech</techLevel>
         <statBases>
-            <MarketValue>1</MarketValue>
+            <MarketValue>5</MarketValue>
             <Mass>0.01</Mass>
         </statBases>
         <tradeTags>
