@@ -1,4 +1,7 @@
 [LTS]Ammunition - Simple Ammo
+2022-12-26
+    - Made some default ammo assignments.
+
 2022-12-05
     - Industrial ammo steel 25 -> 30
     - Changed spacerammo to require 20 plasteel instead of 25 steel.

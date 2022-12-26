@@ -32,7 +32,6 @@
             <li MayRequire="Aoba.Musket">BA_Gun_Jezail_P</li>
         </includeWeaponDefs>
         <excludeWeaponDefs>
-            <li MayRequire="VAMV.MaruRaceMod">BA_Gun_Jezail_P</li>
             <li MayRequire="LimeTreeSnake.Tenants">LTS_RevolverMusket</li>
             <li MayRequire="LimeTreeSnake.Tenants">LTS_QuadMusket</li>
             <li MayRequire="LimeTreeSnake.Tenants">LTS_MusketRifle</li>
@@ -49,13 +48,9 @@
         </ammoDefs>
         <includeWeaponDefs></includeWeaponDefs>
         <excludeWeaponDefs>
-            <li>Gun_TripleRocket</li>
-            <li>Gun_DoomsdayRocket</li>
             <li>Gun_EmpLauncher</li>
             <li>Gun_SmokeLauncher</li>
             <li>Gun_IncendiaryLauncher</li>
-            <li>Gun_ThumpCannon</li>
-            <li>Gun_InfernoCannon</li>
             <li>Weapon_GrenadeFrag</li>
             <li>Weapon_GrenadeMolotov</li>
             <li>Weapon_GrenadeEMP</li>
@@ -66,13 +61,16 @@
             <li MayRequire="rimsenal.EVP">Gun_SmartRifle</li>
             <li MayRequire="rimsenal.EVP">SmartMG</li>
             <li MayRequire="rimsenal.EVP">Gun_SmartSniperRifle</li>
+            <li MayRequire="rimsenal.EVP">YP_BaegYa</li>
+            <li MayRequire="rimsenal.EVP">JI_Dunder</li>
+            <li MayRequire="rimsenal.EVP">GD_Bobcat</li>
+            <li MayRequire="rimsenal.EVP">TE_Grief</li>
             <li MayRequire="LimeTreeSnake.Military">LTS_Handgranat</li>
             <li MayRequire="LimeTreeSnake.Military">LTS_AT</li>
             <li MayRequire="LimeTreeSnake.Military">LTS_grg</li>
             <li>Gun_ThrowingAxes</li>
             <li>Bow_Compound</li>
             <li>VWE_Bow_Compound</li>
-            <li MayRequire="Seioch.Kurin.HAR">Kurin_Gun_Surigum</li>
         </excludeWeaponDefs>
     </Ammunition.Defs.AmmoCategoryDef>
     <!--Explosive-->
@@ -91,21 +89,22 @@
             <li>Gun_IncendiaryLauncher</li>
             <li>Gun_ThumpCannon</li>
             <li>Gun_InfernoCannon</li>
+            <li>Gun_HellsphereCannon</li>
             <li>Weapon_GrenadeFrag</li>
             <li>Weapon_GrenadeMolotov</li>
             <li>Weapon_GrenadeEMP</li>
             <li>Weapon_GrenadeTox</li>
             <li>Gun_ToxbombLauncher</li>
-            <li MayRequire="rimsenal.EVP">Gun_SMG</li>
-            <li MayRequire="rimsenal.EVP">Gun_SmartPistol</li>
-            <li MayRequire="rimsenal.EVP">Gun_SmartRifle</li>
-            <li MayRequire="rimsenal.EVP">SmartMG</li>
-            <li MayRequire="rimsenal.EVP">Gun_SmartSniperRifle</li>
             <li MayRequire="LimeTreeSnake.Military">LTS_Handgranat</li>
             <li MayRequire="LimeTreeSnake.Military">LTS_AT</li>
             <li MayRequire="LimeTreeSnake.Military">LTS_grg</li>
+            <li MayRequire="rimsenal.EVP">YP_BaegYa</li>
+            <li MayRequire="rimsenal.EVP">JI_Dunder</li>
+            <li MayRequire="rimsenal.EVP">GD_Bobcat</li>
+            <li MayRequire="rimsenal.EVP">TE_Grief</li>
         </includeWeaponDefs>
-        <excludeWeaponDefs></excludeWeaponDefs>
+        <excludeWeaponDefs>
+        </excludeWeaponDefs>
     </Ammunition.Defs.AmmoCategoryDef>
     <!--Spacer-->
     <Ammunition.Defs.AmmoCategoryDef>
@@ -116,7 +115,13 @@
             <li>AmmoSpacer</li>
         </ammoDefs>
         <includeWeaponDefs></includeWeaponDefs>
-        <excludeWeaponDefs></excludeWeaponDefs>
+        <excludeWeaponDefs>
+            <li>Gun_TripleRocket</li>
+            <li>Gun_DoomsdayRocket</li>
+            <li>Gun_ThumpCannon</li>
+            <li>Gun_InfernoCannon</li>
+            <li>Gun_HellsphereCannon</li>
+        </excludeWeaponDefs>
     </Ammunition.Defs.AmmoCategoryDef>
     <!--Archotech-->
     <Ammunition.Defs.AmmoCategoryDef>

@@ -54,7 +54,6 @@
             <li>Gun_EmpLauncher</li>
             <li>Gun_SmokeLauncher</li>
             <li>Gun_IncendiaryLauncher</li>
-            <li>Gun_ThumpCannon</li>
             <li>Gun_InfernoCannon</li>
             <li>Weapon_GrenadeFrag</li>
             <li>Weapon_GrenadeMolotov</li>
@@ -112,7 +111,9 @@
             <li>AmmoSpacer</li>
         </ammoDefs>
         <includeWeaponDefs></includeWeaponDefs>
-        <excludeWeaponDefs></excludeWeaponDefs>
+        <excludeWeaponDefs>
+            <li>Gun_ThumpCannon</li>
+        </excludeWeaponDefs>
     </Ammunition.Defs.AmmoCategoryDef>
     <!--Archotech-->
     <Ammunition.Defs.AmmoCategoryDef>
